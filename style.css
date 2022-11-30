@@ -158,9 +158,11 @@ li a:hover {
 
 
 /* Product Page */
+.prods{
+  margin-top: 250px;
+}
 .product{
   margin: 100px;
-  margin-top: 150px;
 }
 .small-container{
     max-width: 1080px;
@@ -417,7 +419,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 20px 20px;
 }
 
 .container:after{
@@ -433,7 +435,7 @@ section{
 	z-index: -1;
 }
 .contact-box{
-	max-width: 80%;
+	max-width: 70%;
 	grid-template-columns: repeat(2, 1fr);
   display: flex;
 	justify-content: center;
@@ -453,23 +455,23 @@ section{
 }
 
 .field{
-	width: 100%;
+	width: 88%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
 }
 
 .fieldMessage{
-  height: 100px;
-  width: 100%;
+  width: 88%;
+  height:100px;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
 	background-color: rgba(230, 230, 230, 0.6);
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
